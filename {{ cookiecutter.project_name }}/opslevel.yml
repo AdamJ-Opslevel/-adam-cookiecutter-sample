@@ -4,6 +4,7 @@ service:
   name: {{ cookiecutter.project_name }}
   product: {{ cookiecutter.product }}
   language: Python
+  owner: Backend
   framework: django
   description: {{ cookiecutter.project_description }}
   aliases:
