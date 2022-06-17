@@ -1,0 +1,21 @@
+---
+version: 1
+service:
+  name: {{ cookiecutter.project_name }}
+  product: {{ cookiecutter.product }}
+  language: Python
+  framework: django
+  description: {{ cookiecutter.project_description }}
+  aliases:
+  - {{ cookiecutter.project_slug }}
+  tags:
+  - key: cookiecutter
+    value: test-opslevel-integration
+  repositories:
+  - name: suraj-testing2/akka_samples
+    path: "/"
+    provider: github
+  tools: 
+  - category: incidents
+    url: http://pagerduty.com/
+    name: PagerDuty - {{ cookiecutter.project_name }}

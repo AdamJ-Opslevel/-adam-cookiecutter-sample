@@ -1,0 +1,9 @@
+{
+  "project_name": "Sample Service",
+  "project_slug": "{{ cookiecutter.project_name | slugify(separator='_') }}",
+  "project_description": "A Python-based service (have to repeat this description in the next frame, sorry!)",
+  "product": ["Payments Service", "Integrations", "Service Discovery", "Security"],
+  "author": "OpsLevel",
+  "file_name": "some_file",
+  "_extensions": ["cookiecutter.extensions.SlugifyExtension"]
+}
