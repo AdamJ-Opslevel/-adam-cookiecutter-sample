@@ -5,5 +5,6 @@
   "product": ["Payments Service", "Integrations", "Service Discovery", "Security"],
   "author": "OpsLevel",
   "file_name": "some_file",
-  "_extensions": ["cookiecutter.extensions.SlugifyExtension"]
+  "_extensions": ["cookiecutter.extensions.SlugifyExtension"],
+  "stuff": "{{ cookiecutter | json }}"
 }
