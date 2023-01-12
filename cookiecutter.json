@@ -6,6 +6,7 @@
   "author": "OpsLevel",
   "file_name": "some_file",
   "_extensions": ["cookiecutter.extensions.SlugifyExtension"],
+  "stuff": "{{ cookiecutter | jsonify }}",  
   "_stuff": "{{ cookiecutter | jsonify }}",
   "__stuff": "{{ cookiecutter | jsonify }}"
 }
