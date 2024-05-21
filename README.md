@@ -1,6 +1,6 @@
 # opslevel-cookiecutter-sample
 
-A sample Cookiecutter template for us to test (and internally demo) with
+A sample Cookiecutter template for us to test (and internally demo) with. And FOR SURE we're going to want to track changes. Yep.
 
 This is an arbitrary change for webhooks. Like REALLY arbitrary. And more!
 
